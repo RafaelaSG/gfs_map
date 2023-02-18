@@ -72,3 +72,4 @@ ax.set_title(f'RH forecast (%) for {time_1d[0].values}Z', fontsize=20)
 ax.plot(lon_2d.flatten(), lat_2d.flatten(), linestyle='none', marker='o',
         color='black', markersize=2, alpha=0.3, transform=ccrs.PlateCarree())
 plt.show()
+fig.savefig('temp.png')
